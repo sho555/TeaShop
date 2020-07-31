@@ -1,12 +1,592 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>RS</title>
+
+    <link rel="stylesheet" href="rs.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+
 </head>
+
 <body>
-    <h1>hi</h1>
+    <section id="navbar">
+
+        <button onclick="toggleMenu()" id="hamburger" class="hamburger">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <a href="#" class="logo"><img src="pic/logo.svg" alt="indimusic"></a>
+        <a href="#" id="search" class="search"><img src="pic/search_yellow.svg" alt=""> </a>
+        <a href="#" id="member" class="member"><img src="pic/member.svg" alt=""> </a>
+        <a href="#" class="shopping"><img src="pic/shopping.svg" alt=""></a>
+    </section>
+
+    <section>
+        <!-- <div id="menu">
+
+        </div> -->
+
+        <ul id="menu" class="menu" style="list-style-type: none">
+            <li> <a href="#cd">CD/黑膠</a></li>
+            <li> <a href="#traffic_contact">交通</a></li>
+            <li> <a href="#">聯絡資訊</a></li>
+            <li> <a href="#">我要賣唱片</a></li>
+        </ul>
+
+    </section>
+
+
+    <section class="home">
+
+        <div class="bg">
+            <div class="row">
+                <a href="#cd" class="cd">CD/黑膠</a>
+                <a href="#traffic_contact" class="traffic_contact">交通</a>
+                <a href="#traffic_contact" class="traffic_contact">聯絡資訊</a>
+                <a href="#" class="logo"><img src="pic/logo.svg" width="222px" height="74px" alt="indimusic"></a>
+                <a href="#" class="sell">我要賣唱片</a>
+                <a href="#" class="shopping"><img src="pic/shopping.svg" alt=""></a>
+                <a href="#" id="member" class="member"><img src="pic/member.svg" alt=""> </a>
+
+                <a href="#" id="search" class="search"><img src="pic/search_yellow.svg" alt=""> </a>
+
+                <!-- <input type="text"> -->
+
+
+            </div>
+
+            <div class="swiper-container swiper1">
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="bg_img">
+                            <img src="./pic/banner2.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg_img"><img src="./pic/sale.jpg" alt=""></div>
+                    </div>
+
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+            </div>
+
+        </div>
+
+        <div id="about">
+            <div class="container">
+
+                <div class="about_content">
+                    <div class="about_intro">
+                        <img src="pic/intro.jpeg">
+                    </div>
+                    <h1>關於</h1>
+                    <p>二手唱片買賣/地下廠牌/獨立廠牌/實驗電子/
+                    </p>
+                    <p>獨立搖滾/古典/爵士/嘻哈/流行音樂
+                    </p>
+                    <p>雷射唱片為主/ 黑膠唱片為輔.../佐以電影、設計、文學各式醬料.....
+                    </p>
+                    <h2> 『CD 不死！！ 黑膠不死！！』
+                    </h2>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="cd">
+        <div class="block">
+            <div class="swiper-container swiper2">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <h1>搖滾/Rock</h1>
+
+                        <div class="imgs">
+                            <div class="cd_img_1">
+                                <img src="/pic/album/rock/rock1.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h2>10,000 Maniacs </h2><br>
+                                        ‎Hope Chest
+                                        (The Fredonia Recordings 1982 - 1983) /U.S. <br>
+                                        <br>
+                                        NTD$350
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="cd_img_2">
+                                <img src="/pic/album/rock/rock2.jpg" alt="">
+                                <div class="text">
+                                    <p>
+                                        <h3>Bob Dylan</h3>
+                                        <br>
+                                        Tell Tale Signs (Rare And Unreleased 1989-2006) /E.U. <br>
+                                        NTD$200
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="cd_img_3">
+                                <img src="/pic/album/rock/rock3.jpg" alt="">
+                                <div class="text">
+                                    <p>
+                                        <h3>The Little Ones</h3><br>
+                                        Sing Song /E.U.<br>
+                                        <br>
+                                        NTD$290
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_4">
+                                <img src="/pic/album/rock/rock4.jpg" alt="">
+                                <div class="text">
+                                    <p>
+                                        <h3>The Strokes</h3><br>
+                                        Is This It /Taiwan<br>
+                                        <br>
+                                        NT$200
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_5"> <img src="/pic/album/rock/rock5.jpg" alt="">
+                                <div class="text">
+                                    <p>
+                                        <h3>Atoms For Peace</h3><br>
+                                        Amok /U.K. 1st.Press/英國首壓精裝版/非台灣平裝版
+                                        <br>
+                                        <br>
+                                        NTD$600
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <h1>電子/Electronica</h1>
+
+                        <div class="imgs">
+                            <div class="cd_img_1">
+                                <img src="pic/album/ele/ele1.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h2>Javiera Mena </h2><br>
+                                        Mena /Japan<br>
+                                        <br>
+                                        NTD$400
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="cd_img_2">
+                                <img src="pic/album/ele/ele2.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Ian Brown</h3>
+                                        <br>
+                                        The Greatest /Germany <br>
+                                        NTD$300
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_3">
+                                <img src="pic/album/ele/ele3.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Faithless</h3>
+                                        <br>
+                                        One Step Too Far /Taiwan
+                                        <br>
+                                        NTD$199
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_4">
+                                <img src="pic/album/ele/ele4.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Edgar Froese</h3>
+                                        <br>
+                                        Aqua /U.K. <br>
+                                        NT$350
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_5">
+                                <img src="pic/album/ele/ele5.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Claire Voyant</h3>
+                                        <br>
+                                        Love Is Blind /U.S.
+                                        <br>
+                                        NTD$350
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide">
+                        <h1>爵士/Jazz</h1>
+                        <div class="imgs">
+                            <div class="cd_img_1">
+                                <img src="pic/album/jazz/jazz1.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h2>Julie London</h2><br>
+                                        About The Blues /Japan
+                                        <br>
+                                        <br>
+                                        NTD$500
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_2">
+                                <img src="pic/album/jazz/jazz2.jpg">
+
+                                <div class="text">
+                                    <p>
+                                        <h3>Astrud Gilberto / Walter Wanderley</h3>
+                                        <br>
+                                        A Certain Smile A Certain Sadness /Japan <br>
+                                        NTD$500
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_3">
+                                <img src="pic/album/jazz/jazz3.jpg">
+
+                                <div class="text">
+                                    <p>
+                                        <h3>Amina Claudine Myers</h3>
+                                        <br>
+                                        Salutes Bessie Smith /U.K.
+                                        <br>
+                                        NTD$250
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_4">
+                                <img src="pic/album/jazz/jazz4.jpg">
+
+                                <div class="text">
+                                    <p>
+                                        <h3>Erik Friedlander</h3>
+                                        <br>
+                                        Chimera /Japan<br>
+                                        NTD$350
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_5">
+                                <img src="pic/album/jazz/jazz5.jpg">
+
+                                <div class="text">
+                                    <p>
+                                        <h3>Lisa Ono</h3>
+                                        <br>
+                                        Essencia /Japan<br>
+                                        NTD$400
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <h1>放克/Funk</h1>
+
+                        <div class="imgs">
+
+                            <div class="cd_img_1">
+                                <img src="pic/album/funk/funk1.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h2>O.S.T </h2><br>
+                                        Thicker Than Water /E.U.<br>
+                                        <br>
+                                        NTD$299
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_2">
+                                <img src="pic/album/funk/funk2.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Grant Green</h3><br>
+                                        Green Is Beautiful /Japan
+                                        <br>
+                                        <br>
+                                        NTD$500
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_3">
+                                <img src="pic/album/funk/funk3.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Epo</h3><br>
+                                        Hi・Touch-Hi・Tech /Japan<br>
+                                        <br>
+                                        NTD$450
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_4">
+                                <img src="pic/album/funk/funk4.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Ké
+                                        </h3><br>
+                                        I Am [ ] /E.U.<br>
+                                        <br>
+                                        NTD$250
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_5">
+                                <img src="pic/album/funk/funk5.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Various </h3><br>
+                                        Power Of Soul : A Tribute To Jimi Hendrix /Taiwan
+                                        <br>
+                                        <br>
+                                        NTD$250
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <h1>流行/Pop</h1>
+
+                        <div class="imgs">
+                            <div class="cd_img_1">
+                                <img src="pic/album/pop/pop1.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h2>The Lucksmiths</h2><br>
+                                        Where Were We? /U.K.<br>
+                                        <br>
+                                        NTD$279
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_2">
+                                <img src="pic/album/pop/pop2.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Kim Wilde
+                                        </h3><br>
+                                        Another Step /Germany<br>
+                                        <br>
+                                        NTD$300
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_3">
+                                <img src="pic/album/pop/pop3.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>monoloQue
+                                        </h3><br>
+                                        Hikayat Halimunan Abad Ke-21: Jejak Tanah /Singapore, Malaysia & Hong Kong
+                                        <br>
+                                        <br>
+                                        NTD$200
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_4">
+                                <img src="pic/album/pop/pop4.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>Swan Dive
+                                        </h3><br>
+                                        Words You Whisper /Spain<br>
+                                        <br>
+                                        NTD$150
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cd_img_5">
+                                <img src="pic/album/pop/pop5.jpg">
+                                <div class="text">
+                                    <p>
+                                        <h3>The Paradise Motel
+                                        </h3><br>
+                                        Flight Paths /E.U.<br>
+                                        <br>
+                                        NTD$350
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="traffic_contact">
+        <div class="container">
+
+            <div class="contents">
+                <div class="content1">
+                    <h1>交通</h1>
+                    <p>地址：台北市羅斯福路三段297-5號3樓（台電大樓正對面/康是美旁樓梯上三樓）</p>
+                    <p>捷運公館站四號出口，穿越地下道，經屈臣氏，步行三分鐘</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.486966770386!2d121.5296193150061!3d25.017542983980142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98bfa5e89ed%3A0xd11cc276fe4b37bc!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A576F5pav56aP6Lev5LiJ5q61Mjk3LTXomZ8!5e0!3m2!1szh-TW!2stw!4v1590132239940!5m2!1szh-TW!2stw"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0" class="map"></iframe>
+
+                <!-- <img src="pic/map.png" alt=""> -->
+                <div class="content2">
+                    <h1>聯絡資訊</h1>
+                    <p>電話：02-23696386</p>
+                    <p>Email：indimusic.me@gmail.com</p>
+                    <p>營業時間：</p>
+                    <p>平日：12：30 - 21：00</p>
+                    <p>假日：13：30 - 22：00</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="copyright">
+                <span>Copyright © 2020 indimusic All rights reserved.</span>
+                <a href="https://www.facebook.com/indimusic.rocks" target="_blank"><img src="pic/facebook.svg"
+                        title="個體戶唱片行" width="35px" height="35px"></a>
+
+                <!-- <img src="pic/facebook.svg" width="35px" height="35px" alt=""> -->
+            </div>
+
+            <div style="clear: both"></div>
+
+
+        </div>
+
+
+    </footer>
+
+
+
+    <!-- navbar -->
+
+    <script>
+        function toggleMenu() {
+            var ham = document.getElementById("hamburger");
+
+            var menu = document.getElementById("menu");
+
+            if (menu.style.display === "none") {
+                menu.style.display = "block";
+            }else {
+                menu.style.display = "none";
+            }
+
+        }
+
+        
+    </script>
+
+    <!-- CDN -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- Initialize Swiper -->
+
+    <script>
+        var swiper1 = new Swiper('.swiper1', {
+
+            loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                paginationClickable: true,
+
+            },
+        });
+
+        var swiper2 = new Swiper('.swiper2', {
+
+            loop: true,
+
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
+
+
+
 </body>
+
 </html>
