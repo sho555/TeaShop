@@ -15,8 +15,8 @@ body {
     .about_p {
         position: absolute;
         writing-mode: vertical-lr;
-        left: calc(100% - 1115px);
-        // left: 30%;
+        // left: calc(100% - 1115px);
+        left: 40%;
         top: 5%;
         transform: translateY(500%);
         white-space: nowrap; //讓文字不自動換行
@@ -279,8 +279,8 @@ body {
         width: 100%;
 
         .banner_box {
-            width: calc(100% - 1140px);
-            // width: 30%;
+            // width: calc(100% - 1140px);
+            width: 40%;
             position: fixed;
 
             z-index: -1;
@@ -322,8 +322,8 @@ body {
         }
 
         .about {
-            width: 1140px;
-            // width: 70%;
+            // width: 1140px;
+            width: 60%;
             float: right;
             background-image: url("../img/72ppi/br-05.jpg");
             clear: both;
@@ -349,6 +349,7 @@ body {
                     margin-top: 0px;
                     padding: 80px 30px;
                     padding-bottom: 0px;
+                    padding-top: 40px;
                 }
 
                 @media (max-width: 375px) {
@@ -382,11 +383,11 @@ body {
                             margin: 0;
                             width: 40%;
                             position: absolute;
-                            right: 10%;
+                            right: 5%;
                             bottom: 0%;
                             float: right;
         
-                            @media (max-width: 1280px){
+                            @media (max-width: 1440px){
                                 width: 90%;
                                 position: unset;
                                 float: none;
@@ -447,7 +448,7 @@ body {
                         font-size: $text;
                         line-height: 35px;
 
-                        @media (max-width:1280px) {
+                        @media (max-width:1440px) {
                             margin-bottom: 40px;
 
                         }

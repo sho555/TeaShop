@@ -15,8 +15,8 @@ body {
     .about_p {
         position: absolute;
         writing-mode: vertical-lr;
-        left: calc(100% - 1115px);
-        // left: 30%;
+        // left: calc(100% - 1115px);
+        left: 40%;
         top: 5%;
         transform: translateY(500%);
         white-space: nowrap; //讓文字不自動換行
